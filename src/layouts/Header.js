@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <>
         <Routes>
-            <Route path="/" exact element={<Image img={img1}/>}/>
+            <Route path="/" element={<Image img={img1}/>}/>
             <Route path="products" element={<Image img={img2}/>}/>
             <Route path="contact" element={<Image img={img3}/>}/>
             <Route path="admin" element={<Image img={img1}/>}/>

@@ -23,6 +23,7 @@ aside {
 section.page {
   flex-grow: 1;
   background-color: blueviolet;
+  color: white;
 }
 footer {
   background-color: black;
@@ -30,4 +31,19 @@ footer {
   padding: 10px 0;
   text-align: center;
   text-transform: uppercase;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form textarea {
+  width: 70%;
+  min-height: 250px;
+}
+.form button {
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid black;
 }
