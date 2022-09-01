@@ -6,9 +6,10 @@ import Page from './Page';
 import Footer from './Footer';
 
 function App() {
+  //basename in Router components -> fixed gh-pages url problem
   return (
     <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className='app'>
         <header>
           {<Header/>}
